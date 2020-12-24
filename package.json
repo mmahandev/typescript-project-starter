@@ -1,7 +1,7 @@
 {
   "name": "typescript-project-starter",
   "version": "1.0.0",
-  "description": "Simple typescript project starter. Comes with eslint and prettier by default.",
+  "description": "A lightweight starter for your typescript projects. Comes pre-installed with eslint, prettier, and husky.",
   "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
