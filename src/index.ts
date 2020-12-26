@@ -1,9 +1,6 @@
 function hello(mystr: string) {
 
 
-  
-
-
 
 
   
