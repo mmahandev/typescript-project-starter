@@ -29,14 +29,23 @@
     "nodemon": "^2.0.6",
     "prettier": "^2.2.1"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --quiet --fix"
-    ]
-  },
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+
+      "hooks": {
+
+          "pre-commit": "lint-staged"
+
+      }
+
+  },
+
+  "lint-staged": {
+
+      "*.{js,ts,tsx}": [
+
+          "eslint --fix"
+
+      ]
+
   }
 }
